@@ -151,4 +151,5 @@ def ping(host, timeout=1, count=10):
     else:
         print("No RTTs to report.")
 
-ping("mirror.aarnet.edu.au")
+
+ping("127.0.0.1")
